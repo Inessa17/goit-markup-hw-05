@@ -258,18 +258,18 @@ ul {
   font-family: inherit;
   cursor: pointer;
   color: var(--main-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   border-radius: 4px;
   border: none;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
   color: var(--main-color);
-  background: var(--button-shadow-bg);
+  background-color: var(--button-shadow-bg);
   box-shadow: 0px 4px 4px var(--button-box-shadow);
 }
 
@@ -395,12 +395,12 @@ ul {
 .team-list .item {
   width: calc((100% - 90px) / 4);
   margin-left: 30px;
-  background: var(--main-color);
+  background-color: var(--main-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-content {
@@ -595,9 +595,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 border-radius: 50%;
-background: rgba(255, 255, 255, 0.1);
+background-color: rgba(255, 255, 255, 0.1);
 
-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons .social-icon {
@@ -657,7 +657,7 @@ transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezi
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  background: var(--main-color);
+  background-color: var(--main-color);
 }
 
 .flex-projects .item:nth-child(3n) {
@@ -686,7 +686,7 @@ transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezi
   color: var(--main-color);
   position: absolute;
   bottom: 0;
-  background: rgba(33, 150, 243, 0.9);
+  background-color: rgba(33, 150, 243, 0.9);
   width: 100%;
   height: 100%;
   align-items: center;
@@ -715,7 +715,7 @@ transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezi
   cursor: pointer;
   border: none;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -726,7 +726,7 @@ transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezi
 .flex-button .primary {
   padding: 6px 25px;
   color: var(--main-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -734,13 +734,13 @@ transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezi
 .flex-button .secondary {
   padding: 6px 22px;
   color: var(--primary-title-color);
-  background: var(--team-bg-color);
+  background-color: var(--team-bg-color);
 }
 
 .flex-button .secondary:hover,
 .flex-button .secondary:focus {
   color: var(--main-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -753,10 +753,10 @@ transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezi
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   visibility: visible;
-  transition: opacity 500ms, visibility 500ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 500ms, visibility 500ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-backdrop.is-hidden .modal {
@@ -777,7 +777,7 @@ transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezi
   left: 50%;
   transform: translate(-50%, -50%) rotate(0);
   transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  background: var(--main-color);
+  background-color: var(--main-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -794,11 +794,11 @@ transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezi
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 1);
   
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .closed {
